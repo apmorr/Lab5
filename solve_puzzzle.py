@@ -1,4 +1,4 @@
-def solve_puzzle(L, visited=None, pos=0):  # Make sure to add input parameters here
+def solve_puzzle(L, visited=None, pos=0):
     """Returns True(False) if a given board is (is not) solveable"""
 
     if visited is None:  # initialize
