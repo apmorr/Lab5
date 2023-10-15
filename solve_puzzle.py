@@ -19,4 +19,4 @@ def solve_puzzle(L, visited=None, pos=0):
 
     if L[pos] == 0: return False
 
-    return solve_puzzle(L, visited, pos + L[pos]) or solve_puzzle(L
+    return solve_puzzle(L, visited, pos + L[pos]) or solve_puzzle(L, visited, pos - L[pos])
